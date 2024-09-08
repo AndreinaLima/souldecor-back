@@ -11,9 +11,9 @@ const app = express()
 const PORT = process.env.PORT || 3000
 const ORIGIN = [
   "http://localhost:5173",
-  "https://e-commerce-rn2-front-five.vercel.app",
-  "https://e-commerce-rn2-front-cmdi15upu-andreinalimas-projects.vercel.app",
-  process.env.FRONTEND_URL || "https://ecommerce-souldecor.vercel.app",
+  "https://souldecor-front-1.vercel.app",
+  "https://souldecor-front-1-git-main-andreinalimas-projects.vercel.app",
+  process.env.FRONTEND_URL || "https://souldecor-front-1.vercel.app",
 ]
 authenticate(connection).then(() => {
   console.log("Conectado ao banco de dados com sucesso.")
