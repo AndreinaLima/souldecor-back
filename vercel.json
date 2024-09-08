@@ -9,7 +9,7 @@
         },
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://souldecor-front-1.vercel.app"
+          "value": "https://souldecor-front.vercel.app"
         },
         {
           "key": "Access-Control-Allow-Methods",
